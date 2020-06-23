@@ -2,13 +2,16 @@ body {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #1a1a1a;
-    background-color: #acaa34;
+    background-color: #754713;
 }
+
 
 /** HEADER **/
 
 #header-nav {
-    background-color: #8f5c04;
+    background-color: #c98715;
+    border-radius: 0;
+    border: 0;
 }
 
 #header-nav button {
@@ -46,7 +49,6 @@ body {
 }
 
 #nav-list a {
-    /*text-align: center;*/
     font-weight: bolder;
     color: #282828;
     font-size: 1.2em;
@@ -63,3 +65,32 @@ body {
 
 
 /** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 40px;
+}
+
+#main-content h2 {
+    font-size: 2.9em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main-section {
+    background-color: #c9dd17;
+    box-shadow: 0 0 50px #99b114;
+    padding: 30px;
+}
+
+/** END HOME PAGE **/
